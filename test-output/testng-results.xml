@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="90" started-at="2020-06-29T22:58:05 EDT" finished-at="2020-06-29T22:58:05 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="90" started-at="2020-06-29T22:58:05 EDT" finished-at="2020-06-29T22:58:05 EDT">
+      <class name="pack1.DataDriven">
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:pack1.DataDriven@66480dd7]" name="logintest" duration-ms="14" started-at="2020-06-29T22:58:05 EDT" data-provider="getData" finished-at="2020-06-29T22:58:05 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:pack1.DataDriven@66480dd7]" name="logintest" duration-ms="2" started-at="2020-06-29T22:58:05 EDT" data-provider="getData" finished-at="2020-06-29T22:58:05 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:pack1.DataDriven@66480dd7]" name="logintest" duration-ms="3" started-at="2020-06-29T22:58:05 EDT" data-provider="getData" finished-at="2020-06-29T22:58:05 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- pack1.DataDriven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
